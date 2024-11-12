@@ -1,0 +1,611 @@
+/* Main Navigation*/
+.MainNav
+{
+    position: relative;
+    height: 40px;
+    background-color: #262626;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.MainNav a
+{
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial;
+    font-size: 22px;
+    transition: 0.2s;
+}
+
+.login
+{
+    position: relative;
+    color: #f2f2f2;
+    padding: 8px 20px;
+    background-color: #4d4d4d;
+    border-radius: 25px;
+    height: 27px;
+    
+}
+.sign_up
+{
+    color: #595959;
+    padding: 8px 20px;
+    background-color: #BFBFBF;
+    border-radius: 25px;
+    height: 26px;
+}
+
+.login:hover
+{
+    background-color: #636363;
+}
+.sign_up:hover
+{
+    background-color: #d4d4d4;
+}
+.login:active
+{
+    background-color: rgba(168, 168, 168, 0.692);
+}
+.sign_up:active
+{
+    background-color: #e8e8e8;
+}
+
+#search
+{
+    background-color: #6c6c6c;
+    border-width: 0px;
+    border-radius: 20px;
+    padding: 11px 20px;
+    font-family: Arial;
+    text-align: left;
+    color: #d4d4d4;
+}
+#search::placeholder
+{
+    color: #BFBFBF;
+}
+.Logo
+{
+    height: 55px;
+    width: auto;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -7px;
+    margin-left: -61%;
+}
+
+.NavbarButtons
+{
+    background-color: #404040;
+    display: flex;
+    padding: 8px 0px;
+    height: 44px;
+    margin-top: -10px;
+    margin-right: 20%;
+    justify-content: center;
+}
+.NavbarButtons a
+{
+    color: #ffffff;
+    padding: 17px 20px;
+    height: 27px;
+    transition: 0.3s;
+    margin-top: -9px;
+}
+.About
+{
+    width: 95px;
+}
+.NavbarButtons a:hover
+{
+    background-color: #505050;
+}
+
+
+/* Main Navigation*/
+
+/*------------------------------*/
+
+/*Feed*/
+
+.Feed
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-top: 15px;
+    gap: 20px;
+}
+.PostInfo
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.DevlogLink
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 380px;
+}
+.Devlog
+{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 470px;
+    background-color: #b7b6b6;
+    text-align: center;
+    border-radius: 15px;
+    gap: 10px;
+    transition: 0.2s;
+}
+.Devlog_Title
+{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 16px;
+}
+.Devlog_ImageHolder
+{
+    width: 470px;
+    height: 330px;
+    border-radius: 10px;
+    margin-left: 15px;
+    background-color: #858585;
+}
+.User
+{
+    display: flex;
+    flex: row;
+    justify-content: left;
+    margin-left: 15px;
+    background-color: #767676;
+    width: fit-content;
+    max-width: 300px;
+    height: 35px;
+    padding-top: -2px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+.UserProfilePicture
+{
+    max-width: 30px;
+    height: auto;
+    margin-top: 5px;
+}
+.Verification
+{
+    max-width: 20px;
+    margin-top: 5px;
+    margin-left: 6px;
+    height: auto;
+}
+.Username
+{
+    margin-left: 5px;
+    margin-top: 7px;
+    font-size: 22px;
+    font-family: Calibri;
+    color: #ffffff;
+}
+.PostTime
+{
+    margin-top: 19px;
+    font-size: 19px;
+    font-family: Calibri;
+    color: #767676;
+}
+.PostThumbnail
+{
+    object-fit: cover;
+    overflow: hidden;
+    max-width: 45%;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+/* post image */
+#post1
+{
+    max-width: 100%;
+    margin-top: 90px;
+    margin-right: 20px;
+}
+#post4
+{
+    max-width: 95%;
+    margin-top: 15px;
+    margin-right: 2px;
+}
+#post3
+{
+    margin-top: 110px;
+}
+/*------------*/
+.Stats
+{
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 20px;
+}
+.Stats img{
+    max-width: 13%;
+    height: 70px;
+    margin-top: -18px;
+    
+}
+.Likes
+{
+    margin-top: 5px;
+    margin-left: -30px;
+    font-size: 20px;
+}
+.Views
+{
+    margin-top: 5px;
+    margin-left: -20px;
+    font-size: 20px;    
+
+}
+.Stats div{
+    font-family: Calibri;
+}
+.Devlog:hover
+{
+    transform: scale(1.01);
+    background-color: #c4c4c4;
+}
+
+/*.SideNav
+{
+    background-color: #4d4d4d;
+    z-index: 1;
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+}*/
+
+/* ----------------- End Of Home Page --------------------- */
+/* ----------------- Login/SignUp Page --------------------- */
+.Main_Container
+{
+    background-color: #989898;
+    width: 400px;
+    margin-left: 33%;
+    margin-top: 70px;
+    height: 400px;
+    border-radius: 15px;
+    text-align: center;
+}
+.Header
+{
+    font-family: Calibri;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding-top: 30px;
+}
+.Credentials .credential
+{
+    margin-top: 20px;
+    border-radius: 20px;
+    border-width: 0px;
+    width: 80%;
+    height: 35px;
+    padding-left: 15px;
+    font-family: Calibri;
+    font-size: 24px;
+}
+.Remember_checkBox
+{
+    display: block;
+    margin-left: 35px;
+    margin-top: 15px;
+    border-width: 0px;
+    transform: scale(1.1);
+}
+.Credentials div
+{
+    margin-top: -15px;
+    margin-left: -190px;
+    font-family: Calibri;
+    color: white;
+}
+.Credentials a
+{
+    display: block;
+    margin-top: -18px;
+    margin-left: 200px;
+    font-family: Calibri;
+    color: white;
+    opacity: 70%;
+}
+#Button
+{
+    text-decoration: none;
+    color: gray;
+    background-color: white;
+    font-size: 23px;
+    font-family: Calibri;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 5px 60px;
+    transition: 0.2s;
+}
+.Button1
+{
+    margin-top: 40px;
+}
+.Button2
+{
+    margin-top: 10px;
+}
+#LabelText
+{
+    display: block;
+    margin-top: 10px;
+    font-family: Calibri;
+    color: white;
+}
+
+#Button:hover{
+    background-color: rgba(255, 255, 255, 0.849);
+}
+
+/* ------ End of Login/Sign Up Page ---------------*/
+/* ----------------- About Page --------------------- */
+.AboutBody {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.HeaderDiv {
+    text-align: center;
+    background-color: #828282;
+    color: #fff;
+    margin: 20px;
+    font-size: 2em;
+}
+
+.Content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+.AboutSection h1, .AboutSection h2 {
+    color: #262626;
+    margin-bottom: 10px;
+}
+
+.AboutSection p {
+    margin-bottom: 20px;
+    color: #595959;
+}
+
+.AboutSection ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #595959;
+}
+.AboutSection a{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.AboutSection a:hover
+{
+    color: rgb(77, 77, 77);
+}
+.Legal_Info
+{
+    text-align: center;
+}
+/*----------End of About Page---------------*/
+/*----------Contacts Page-------------------*/
+.Contacts_Header
+{
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #828282;
+    color: white;
+    margin-bottom: 35px;
+}
+.ContactsBox
+{
+    width: 300px;
+    height: 370px;
+    margin-left: 37%;
+    border-radius: 15px;
+    background-color: #989898;
+
+}
+.ContactsContainer a
+{
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: Calibri;
+    color: #333;
+    font-size: 25px;
+    width: 85%;
+    background-color: #dedede;
+    height: 50px;
+    text-align: center;
+    line-height: 49px;
+    margin-left: 20px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+.ContactsContainer a:hover
+{
+    background-color: #f2f2f2;
+    transform: scale(1.01);
+}
+
+.ContactsContainer a:active
+{
+    background-color: #c2c2c2;
+}
+.ContactsContainer
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 15px;
+}
+.ContactsBox a img
+{
+    max-width: 20%;
+    margin-left: -125px;
+}
+.ContactsBox a div
+{
+    margin-top: -65px;
+}
+
+#contact2
+{
+    margin-left: 35px;
+}
+#contact3
+{
+    margin-left: 5px;
+}
+.ContactsBox_Heading
+{
+    font-size: 30px;
+    text-align: center;
+    font-family: Calibri;
+    padding-top: 15px;
+    color: #333;
+}
+#TextLabel
+{
+    margin-left: 46%;
+    margin-top: 15px;
+    font-size: 50px;
+    font-family: Calibri;
+}
+.Support_Ticket
+{
+    padding: 5px 25px;
+    margin-bottom: 30px;
+    background-color: #989898;
+    width: 300px;
+    height: 370px;
+    border-radius: 15px;
+    margin-left: 35%;
+    margin-top: 15px;
+}
+.Support_Ticket input
+{
+    margin-top: 20px;
+    border-radius: 20px;
+    border-width: 0px;
+    width: 80%;
+    height: 35px;
+    padding-left: 15px;
+    font-family: Calibri;
+    font-size: 24px;
+    margin-left: 5%;
+    background-color: #dedede;
+}
+.Support_Ticket textarea
+{
+    border-radius: 10px;
+    border-width: 0px;
+    margin-top: 20px;
+    height: 100px;
+    width: 250px;
+    padding: 2px 5px;
+    margin-left: 5%;
+    resize: none;
+    background-color: #dedede;
+}
+.Support_Ticket h1
+{
+    font-size: 30px;
+    text-align: center;
+    font-family: Calibri;
+    color: #333;
+}
+.Support_Ticket a
+{
+    text-decoration: none;
+    color: #333;
+    font-family: Calibri;
+    margin-left: 33%;
+    margin-top: 10px;
+    border-radius: 15px;
+    display: block;
+    background-color: #cfcfcf;
+    padding: 3px 15px;
+    width: 50px;
+}
+/*-----------------End of about page------------------------*/
+/*-----------------Error 404 page---------------------------*/
+.ErrorPage_Content img
+{
+    max-width: 50%;  
+    margin-left: 23%;
+    margin-top: -50px;
+}
+.ErrorPage_Content h1
+{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #5f5f5f;
+    text-align: center;
+    margin-top: -60px;
+    transition: 0.3s;
+}
+.ErrorPage_Content p
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+    font-family: Calibri;
+    color: #303030;
+}
+.ErrorPage_Content a
+{
+    color: #636363;
+    text-decoration: none;
+}
+.ErrorPage_Content a:hover
+{
+    color: #787878;
+}
+
+
+
